@@ -4,13 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    padding-top: 100px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
+/*body {
+    padding-top: 100px;*/ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+/*}*/
 
 .portfolio-item {
     margin-bottom: 25px;
+
 }
+
 
 footer {
     margin: 50px 0;
@@ -18,4 +20,15 @@ footer {
 
 h3, a {
   color: black;
+}
+
+/*images with the same height*/
+.crop {
+
+    /*width: 400px;*/
+    overflow: hidden;
+}
+.crop img {
+    height: 400px;
+    width: auto;
 }
